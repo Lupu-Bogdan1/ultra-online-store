@@ -1,0 +1,42 @@
+.device-img {
+    max-width: 200px;
+    max-height: 250px;
+}
+.card {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: white;
+    width: 17%;
+    margin: 5px 10px;
+    color: rgb(32, 35, 88);
+    transition: all .3s ease-in;
+    border: thin solid;
+    cursor: pointer;
+}
+
+
+.card:hover {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.img-size {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rate-place {
+    text-align: right;
+}
+
+.price-place {
+    text-align: left;
+    font-weight: bold;
+    justify-content: space-around;
+}
+
+
+

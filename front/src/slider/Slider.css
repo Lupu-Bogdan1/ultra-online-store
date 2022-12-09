@@ -1,0 +1,14 @@
+.slider-container {
+    max-width: 100%;
+    /* background: red; */
+}
+
+.slick-slide {
+    width: 500px;
+    height: 400px;
+}
+
+.slider-container img {
+max-width: 100%;
+height: auto;
+}

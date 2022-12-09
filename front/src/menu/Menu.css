@@ -1,0 +1,50 @@
+.menuContainer {
+    color: black;
+    display: flex;
+    background-color: white;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: left;
+    left: 3%;
+    right: 3%;
+    border: 2px solid black;
+    z-index: 100;
+}
+
+.categoryInner{
+    display: flex;
+    align-items: center;
+}
+
+.subCategoryStyle {
+    margin-left: 100px;
+    text-align: left;
+    position: relative;
+}
+
+.subCategory p{
+    margin-left: 100px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.subCategoryStyle::before{
+    position: absolute;
+    content: '';
+    width: 0%;
+    height: 2px;
+    bottom: -6px;
+    left: -5px;
+    background-color: #000;
+    transition: all 0.5s;
+}
+
+.subCategoryStyle:hover::before{
+    position: absolute;
+    content: '';
+    width: 110%;
+   
+}

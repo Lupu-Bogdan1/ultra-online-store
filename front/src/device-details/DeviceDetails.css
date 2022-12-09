@@ -1,0 +1,18 @@
+ .details-img {
+        font: 2px;
+ }        
+
+.details-imgn {
+        max-width: 500px;
+        max-height: 500px;
+        border: 1px solid black;
+}
+
+.device-price h3 {
+        justify-content: center;
+        border: 3px solid rgba(0, 0, 0, 0.107);
+        width: 155px;
+        height: 53px;
+        border-radius: 10px;
+        
+}

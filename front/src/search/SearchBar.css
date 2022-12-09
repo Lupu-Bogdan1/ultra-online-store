@@ -1,0 +1,38 @@
+form {
+    display: flex;
+    align-items: center;
+    background-color: #284a6b;
+    width: 548px;
+    height: 44px;
+    border-radius: 5px;
+    position: relative;
+}
+
+input {
+    all: unset;
+  font: 16px system-ui;
+  color: white;
+  height: 100%;
+  width: 100%;
+  padding: 6px 56px 6px 15px;
+
+}
+
+::placeholder {
+    color: white;
+  opacity: 0.7;
+}
+
+.search-form-btn{
+    position: absolute;
+    width: 56px;
+    height: 48px;
+    top: 0;
+    right: 0;
+    
+}
+
+.search-form-btn svg{
+    width: 24px;
+    height: 24px;
+}

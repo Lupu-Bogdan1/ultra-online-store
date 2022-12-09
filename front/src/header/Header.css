@@ -1,0 +1,93 @@
+header {
+    background-color: #0c243c;
+}
+
+.second-header {
+    background-color: #1e3a56;
+    border-top: 3px;
+    height: 72px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#top-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 45px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#top-menu li {
+    padding: 9px;
+}
+
+#top-menu li:hover {
+    background-color: rgb(54, 56, 82);
+    border-radius: 30px;
+    transition: 1s;
+}
+
+#top-menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.phone-icon {
+    color: white;
+    width: 30px;
+}
+
+
+button {
+    background: transparent;
+    border: none !important;
+    color: white;
+    font-size: 17px;
+}
+
+.SearchBar {
+    position: absolute;
+}
+
+.cart-logo {
+    color: white;
+    width: 25px;
+}
+
+.user-logo {
+    color: white;
+    width: 25px;
+}
+
+
+.phone-icon {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 20px;
+}
+
+.phone-icon svg{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-logo {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.cart-logo {
+    cursor: pointer;
+}
