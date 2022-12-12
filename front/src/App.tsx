@@ -8,13 +8,9 @@ import DeviceCard from './device-card/DeviceCard';
 import DeviceCardList from './device-card-list/DeviceCardList'
 import LandingPage from './landing-page/landingPage';
 import DeviceDetails from './device-details/DeviceDetails'; 
-import axios from 'axios'
 import DevicesByBrand from './devices-by-brand-and-type/DevicesByBrandAndType';
 import DevicesByBrandAndType from './devices-by-brand-and-type/DevicesByBrandAndType';
 import SlickSlider from './slider/Slider';
-
-
-
 
 function App() {
   
